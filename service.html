@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and style settings -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive on all devices -->
+    <title>My Services</title> <!-- Title of the webpage -->
+    
+    <!-- Internal CSS for styling -->
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6; /* Line spacing */
+            background-color: #f4f4f4; /* Light grey background */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container class to center the content */
+        .container {
+            width: 80%; /* Content width is 80% of the viewport */
+            margin: auto; /* Centers the container */
+            overflow: hidden; /* Clears floats */
+        }
+
+        /* Header styling */
+        #main-header {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* White text color */
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid; /* Blue bottom border */
+        }
+
+        #main-header h1 {
+            text-align: center; /* Center the header text */
+            text-transform: uppercase; /* Uppercase letters */
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Services section */
+        #services {
+            margin: 20px 0;
+        }
+
+        /* Styling each service block */
+        .service {
+            background: #fff; /* White background */
+            margin: 20px 0; /* Spacing between service blocks */
+            padding: 20px; /* Padding inside the service block */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+        }
+
+        .service h2 {
+            color: #333; /* Dark text color */
+        }
+
+        .service p {
+            color: #555; /* Medium dark text color */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main header of the page -->
+    <header id="main-header">
+        <div class="container">
+            <h1>My Services</h1> <!-- Page title -->
+        </div>
+        <button><a href="index.html">Home Page</a></button>
+
+    </header>
+
+    <!-- Services section -->
+    <section id="services" class="container">
+        <!-- First service: Web Development -->
+        <div class="service">
+            <h2>Web Development</h2> <!-- Service title -->
+            <p>
+                I offer web development services, including creating responsive and interactive websites using HTML, CSS, and JavaScript. Whether you need a personal blog or a business website, I can help bring your ideas to life.
+            </p> <!-- Service description -->
+        </div>
+
+        <!-- Second service: Front-End Design -->
+        <div class="service">
+            <h2>Front-End Design</h2>
+            <p>
+                With a keen eye for design, I specialize in crafting visually appealing and user-friendly interfaces. I can help you design layouts that are not only attractive but also intuitive and easy to navigate.
+            </p>
+        </div>
+
+        <!-- Third service: Website Maintenance -->
+        <div class="service">
+            <h2>Website Maintenance</h2>
+            <p>
+                I provide ongoing maintenance services to ensure your website remains up-to-date and functional. This includes content updates, bug fixes, and performance optimization.
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and style settings -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive on all devices -->
+    <title>Contact & Location</title> <!-- Title of the webpage -->
+    
+    <!-- Internal CSS for styling -->
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4; /* Light grey background */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container class to center the content */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Header styling */
+        #main-header {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* White text color */
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid; /* Blue bottom border */
+        }
+
+        #main-header h1 {
+            text-align: center; /* Center the header text */
+            text-transform: uppercase; /* Uppercase letters */
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Location and contact section */
+        #location-contact {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+        }
+
+        /* Styling the h2 headings */
+        #location-contact h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Contact list styling */
+        .contact-info {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+        }
+
+        .contact-info li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .contact-info a {
+            color: #77aaff; /* Link color */
+            text-decoration: none;
+        }
+
+        /* Make the links change color on hover */
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            .container {
+                width: 100%; /* Make the container full-width on small screens */
+            }
+            #main-header h1 {
+                font-size: 20px; /* Reduce header font size */
+            }
+            .contact-info li {
+                font-size: 14px; /* Reduce font size for contact details */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Main header of the page -->
+    <header id="main-header">
+        <div class="container">
+            <h1>Contact & Location</h1> <!-- Page title -->
+        </div>
+        <button><a href="index.html">Home page</a></button>
+    </header>
+
+    <!-- Location and contact section -->
+    <section id="location-contact" class="container">
+        <!-- Location details -->
+        <h2>Location</h2>
+        <p>
+            Uganda, Kampala, Wakiso District, Village Matugga, Lwadda A
+        </p>
+
+        <!-- Contact details -->
+        <h2>Contact Information</h2>
+        <ul class="contact-info">
+            <li>Phone: <a href="tel:+256708044865">0708 044 865</a></li>
+            <li>Phone: <a href="tel:+256776326821">0776 326 821</a></li>
+            <li>Email: <a href="mailto:zziwafrank2004@gmail.com">zziwafrank2004@gmail.com</a></li>
+            <li>WhatsApp: <a href="https://wa.me/256708044865" target="_blank">Chat with me on WhatsApp</a></li>
+            <li>TikTok: <a href="https://www.tiktok.com/@fnk256" target="_blank">@fnk256 on TikTok</a></li>
+        </ul>
+    </section>
+</body>
+</html>

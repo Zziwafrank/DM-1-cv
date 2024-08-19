@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            *{
+                padding: 0%;
+                margin: 0%;
+            }
+        body{
+            background-image: url(  pexels-iriser-1366957.jpg );
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .navbar a{
+            text-align: right;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            font-size: 20px;
+        }
+         .navbar li{
+            float: left;
+         }
+            .navbar ul{
+                overflow: hidden;
+                list-style-type: none; 
+                padding: 0%;
+                margin: 0%;
+            }
+        header{
+            text-align:center ;
+            background-color: aquamarine;
+        }
+        a {
+        text-decoration: none;
+        font-family: (times new roman);
+        font-weight: bold;
+        text-transform: uppercase;
+        }
+        a:hover{
+            background-color: rgb(119, 111, 111);
+            text-transform: uppercases;
+            color: rgb(28, 28, 31);
+        }
+        a.visted{
+            background-color: black;
+        }
+        /* From Uiverse.io by SelfMadeSystem */ 
+.container {
+  cursor: pointer;
+}
+
+.container input {
+  display: none;
+}
+
+.container svg {
+  overflow: visible;
+}
+
+.path {
+  fill: none;
+  stroke: white;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
+  stroke-dasharray: 241 9999999;
+  stroke-dashoffset: 0;
+}
+
+.container input:checked ~ svg .path {
+  stroke-dasharray: 70.5096664428711 9999999;
+  stroke-dashoffset: -262.2723388671875;
+}
+
+.logs{
+   text-align: right;
+   color: yellow;
+   cursor: pointer;
+   display: flex;
+   justify-content: right;
+}
+button:hover{
+    color: aqua;
+    text-transform: lowercase;
+    background-color: rgb(8, 231, 8);
+} 
+  /* General styles for the webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+  
+}
+
+.profile-img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+ 
+/* Typewriter effect styling */
+.typewriter h1 {
+    font-size: 36px;
+    color: #e7dfdf;
+    border-right: 2px solid black;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 7s steps(40, end) forwards;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Styling for the programming language section */
+.languages {
+    margin-top: 30px;
+}
+
+.icons img {
+    width: 80px;
+    margin: 0 15px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+<label class="container">
+  <input type="checkbox">
+  <svg viewBox="0 0 64 64" height="2em" width="2em">
+    <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 
+    0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 
+    A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16"
+     pathLength="575.0541381835938" class="path"></path>
+  </svg>
+</label>
+ <nav class="navbar">
+    <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="service.html">service</a></li>
+        <li><a href="location.html">location</a> </li>
+
+    </ul>
+ </nav>
+
+</header>
+
+    <!-- Container for the photo and welcome message -->
+    <div class="container">
+        <!-- Your photo section (upload it manually later) -->
+        <img src="IMG_0689.PNG" alt="Dr.FNK" class="profile-img">
+
+        <!-- Typewriter welcome message -->
+        <div class="typewriter">
+            <h1>Welcome to FNK's Web Development Services!</h1>
+        </div>
+    </div>
+
+    <!-- Section for programming languages -->
+    <div class="what we do">
+        <h2>We Build With:</h2>
+        
+    </div>
+
+    <script src="script.js">
+      // If you need to implement extra features like dynamic responsiveness, this is where you can add JavaScript.
+// For now, the typewriter effect is handled by CSS, but JS could be used for more dynamic content.
+
+    </script>
+</body>
+</html>
+
+</body>
+</html>
